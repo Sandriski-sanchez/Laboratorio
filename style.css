@@ -1,0 +1,149 @@
+/*---Estilos texto*/
+.formulario__labelh1 {
+    font-size: 35px;
+    display: block;
+    font-weight: bold;
+    padding: 5px 0px;
+    cursor: pointer;
+    color: #BDA9FD;
+    margin-bottom: 16px;
+}
+
+.formulario__label {
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+    padding: 5px 0px;
+    cursor: pointer;
+    color: #BDA9FD;  
+}
+
+
+/*---Estilos campos*/
+.formulario__grupo-input {
+    position: relative;
+}
+
+.formulario__input {
+    width: 95%;
+    height: 20px;
+    border-color: solid #A58AFD;
+    border-width: 3px 3px 3px 3px;
+    margin-bottom: 16px;
+    padding: 10px 10px;
+    background: #FFFFFF;
+    color:#0a0a0a;
+    border-radius: 5%;
+}
+
+.formulario__input:focus {
+    outline: none;
+    box-shadow: 3px 0px 30px rgb(163, 163, 163, 0.4);
+}
+
+.formulario__input-error {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario__input-error-activo {
+    display: block;
+}
+
+.formulario__validacion-estado {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+
+/*---Estilos botón enviar*/
+.formulario__grupo-btn-enviar {
+    width: 100%;
+    padding: 8px 8px;
+    display: block;
+    align-items: center;
+    position: relative;
+}
+
+.formulario__btn {
+    width: 97%;
+    height: 45px;
+    border-color: solid #1B162C;
+    border-width: 3px 3px 3px 3px;
+    margin-bottom: 16px;
+    padding: 10px 10px;
+    background: #8F6EFC;
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+.formulario__btn:hover {
+    box-shadow: 3px 0px 30px rgb(163, 163, 163, 0.4);
+}
+
+.formulario__mensaje-exito {
+    font-size: 12px;
+    color: #119200;
+    display: none;
+}
+
+.formulario__mensaje-exito-activo {
+    display: block;
+}
+
+
+/*---Estilos validación*/
+.formulario__grupo-correcto .formulario__label {
+    color: #119200;
+}
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color: #119200;
+    opacity: 1;
+}
+
+.formulario__grupo-correcto .formulario__input {
+    border: 3px solid #119200;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+    color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+    border: 3px solid #bb2929;
+}
+
+
+/*---Estilos recuadro página*/
+body{
+    font-family: RomanD;
+    background-color: #2a253b;
+}
+
+
+/*---Estilos recuadro formulario*/
+.form-login {
+    width: 400px;
+    height: 500px;
+    background: #4c485d;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: 2px solid #BDA9FD;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 1%;
+}
+
+
